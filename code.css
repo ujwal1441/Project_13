@@ -134,3 +134,11 @@ select:disabled {
 .p-1 { padding: 1rem; }
 .p-2 { padding: 2rem; }
 
+
+/* ------------------------------ */
+/* CUSTOM SCROLLBAR */
+/* ------------------------------ */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
