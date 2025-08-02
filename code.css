@@ -181,3 +181,9 @@ select:disabled {
 
 }
 
+
+.tooltip:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}
+
