@@ -13,4 +13,11 @@ body.light-mode nav a:hover {
     background: linear-gradient(90deg, var(--primary), var(--accent));
     color: white;
 }
-
+body.light-mode .detail-card,
+body.light-mode .member-card,
+body.light-mode .event-card,
+body.light-mode .testimonial-card,
+body.light-mode .join-section {
+    background: #f0f0f5;
+    color: var(--dark);
+}
