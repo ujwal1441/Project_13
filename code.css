@@ -63,4 +63,9 @@ btn-ghost {
     border: none;
 }
 
+* Hover States */
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-hover);
+}
 
