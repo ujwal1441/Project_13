@@ -85,3 +85,10 @@ select.error {
 }
 
 
+input:disabled,
+select:disabled {
+    background: #ccc;
+    color: #666;
+    cursor: not-allowed;
+}
+
