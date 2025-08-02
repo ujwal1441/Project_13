@@ -69,3 +69,11 @@ btn-ghost {
     box-shadow: var(--shadow-hover);
 }
 
+
+/* ------------------------------ */
+/* FORM FIELD STATES */
+/* ------------------------------ */
+input.success,
+select.success {
+    border: 2px solid green;
+}
