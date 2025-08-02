@@ -210,3 +210,17 @@ select:disabled {
     color: var(--primary);
 }
 
+
+* ------------------------------ */
+/* LOADER */
+/* ------------------------------ */
+.loader {
+    border: 5px solid #f3f3f3;
+    border-top: 5px solid var(--primary);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+    margin: auto;
+}
+
