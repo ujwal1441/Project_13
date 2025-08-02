@@ -229,3 +229,14 @@ select:disabled {
     100% { transform: rotate(360deg); }
 }
 
+
+/* ------------------------------ */
+/* SPONSORS SECTION */
+/* ------------------------------ */
+.sponsors-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 2rem;
+    padding: 2rem 0;
+}
+
