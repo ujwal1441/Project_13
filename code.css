@@ -283,3 +283,8 @@ select:disabled {
     transition: var(--transition);
 }
 
+
+.faq-item:hover {
+    box-shadow: var(--shadow-hover);
+}
+
