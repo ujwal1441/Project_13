@@ -41,7 +41,7 @@ The stylesheet is structured with modular sections for clarity and reusability:
 
 ## 🎨 Required CSS Variables
 
-Before using the stylesheet, ensure your global CSS (`:root`) includes these variables for colors and transitions:
+Before using the stylesheet, ensure your global CSS (`:root`) includes these variables for colors and transitions are done by my teammets (1),(2),(3),(4):
 
 ```css
 :root {
