@@ -92,3 +92,26 @@ select:disabled {
     cursor: not-allowed;
 }
 
+/* ------------------------------ */
+/* SCROLL TO TOP BUTTON */
+/* ------------------------------ */
+.scroll-to-top {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: var(--primary);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+    z-index: 999;
+    display: none;
+}
+
