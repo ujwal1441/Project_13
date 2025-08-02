@@ -5,4 +5,7 @@ body.light-mode .logo,
 body.light-mode .position {
     color: var(--accent);
 }
+body.light-mode nav a {
+    color: var(--dark);
+}
 
