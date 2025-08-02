@@ -8,4 +8,9 @@ body.light-mode .position {
 body.light-mode nav a {
     color: var(--dark);
 }
+body.light-mode nav a.active,
+body.light-mode nav a:hover {
+    background: linear-gradient(90deg, var(--primary), var(--accent));
+    color: white;
+}
 
