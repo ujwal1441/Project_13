@@ -77,3 +77,11 @@ input.success,
 select.success {
     border: 2px solid green;
 }
+
+
+input.error,
+select.error {
+    border: 2px solid rgb(179, 0, 255);
+}
+
+
