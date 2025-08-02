@@ -301,3 +301,8 @@ select:disabled {
     color: rgba(255, 255, 255, 0.9);
 }
 
+
+.faq-item.active .faq-answer {
+    display: block;
+}
+
