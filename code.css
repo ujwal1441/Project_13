@@ -45,3 +45,9 @@ body.light-mode .join-section {
 }
 
 
+.btn-secondary {
+    background: rgba(170, 72, 72, 0.1);
+    color: var(--primary);
+}
+
+
