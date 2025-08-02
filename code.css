@@ -119,3 +119,7 @@ select:disabled {
     display: flex;
 }
 
+.scroll-to-top:hover {
+    background: var(--accent);
+}
+
