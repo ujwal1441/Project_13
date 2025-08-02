@@ -251,3 +251,9 @@ select:disabled {
     box-shadow: var(--shadow);
 }
 
+
+.sponsor-logo img {
+    max-width: 100px;
+    height: auto;
+}
+
