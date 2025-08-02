@@ -142,3 +142,9 @@ select:disabled {
     width: 10px;
 }
 
+
+::-webkit-scrollbar-thumb {
+    background: var(--primary);
+    border-radius: 10px;
+}
+
