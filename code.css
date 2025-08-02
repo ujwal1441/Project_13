@@ -1,4 +1,8 @@
 body.light-mode nav {
     background: rgba(255, 255, 255, 0.9);
 }
+body.light-mode .logo,
+body.light-mode .position {
+    color: var(--accent);
+}
 
