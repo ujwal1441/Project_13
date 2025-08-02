@@ -38,3 +38,10 @@ body.light-mode .join-section {
 }
 
 
+
+.btn-primary {
+    background: linear-gradient(90deg, var(--primary), var(--accent));
+    color: white;
+}
+
+
