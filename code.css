@@ -204,3 +204,9 @@ select:disabled {
     background: var(--accent);
 }
 
+.badge-outline {
+    background: transparent;
+    border: 1px solid var(--primary);
+    color: var(--primary);
+}
+
