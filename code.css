@@ -288,3 +288,9 @@ select:disabled {
     box-shadow: var(--shadow-hover);
 }
 
+.faq-question {
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: var(--primary);
+}
+
