@@ -200,3 +200,7 @@ select:disabled {
     border-radius: 10px;
 }
 
+.badge-secondary {
+    background: var(--accent);
+}
+
