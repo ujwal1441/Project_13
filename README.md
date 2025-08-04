@@ -1,56 +1,59 @@
-# 🌞 Light Mode UI Stylesheet
+# ✨ Ujwal R's Contribution – Light Mode & UI Components
 
-Welcome to the **Light Mode UI Stylesheet** — a clean, modern CSS foundation for building visually appealing, accessible, and user-friendly web interfaces with light theme aesthetics.
-
-This stylesheet provides a full suite of reusable UI components and utilities, perfect for modern web projects that require a consistent and elegant light mode look.
+Hi there! I'm **Ujwal R**, and this is my contribution to our collaborative Student Club Website project. Our goal as a team of four students was to create a clean, modern, and responsive interface — and my part focused on the **Light Mode styling** and a set of **interactive UI components** using CSS.
 
 ---
 
-## 🚀 Key Features
+## 🌞 What I Worked On
 
-* Elegant **light mode theming**  
-*Responsive button variants**: primary, secondary, outline, ghost
-*Form state styling**: success, error, disabled  
-*Scroll-to-top** floating button
-*Custom **scrollbar styling**
-*Reusable **tooltips and badges**
-*Smooth **CSS loader animation**  
-*Stylish **sponsors, FAQ, and announcement** sections  
-*Handy **utility classes** for padding, text alignment, and spacing
+I handled the styles that make the website feel light, vibrant, and user-friendly. Here's a breakdown of the features I built:
+
+### 🎨 Light Mode Support
+- Designed a full **light theme** using the `.light-mode` class.
+- Ensured all components remain accessible and visually pleasing on light backgrounds.
+
+### 🔘 Button Variants
+- Created reusable button styles:
+  - `.btn-primary`, `.btn-secondary`, `.btn-outline`, and `.btn-ghost`
+- Added hover animations and smooth transitions for interaction feedback.
+
+### 📋 Form States
+- Styled inputs with `.success`, `.error`, and `:disabled` states.
+- Helps users quickly understand the validation status of form fields.
+
+### 🔼 Scroll-to-Top Button
+- Added a neat, floating button that appears as users scroll.
+- Includes hover effects and auto-hide behavior.
+
+### 🧰 Utility Classes
+- Simple helper classes like `.mt-2`, `.text-center`, `.p-2` for faster layout control.
+
+### 🎚 Custom Scrollbars
+- Gave scrollbars a more polished look to match the rest of the UI.
+
+### 💬 Tooltip Styling
+- Made tooltips that fade in smoothly on hover, using pure CSS.
+
+### 🏷 Badge Styles
+- Implemented color-coded labels for tags, statuses, or roles.
+
+### 🔄 CSS Loader
+- Designed a lightweight, animated loading spinner using `@keyframes`.
+
+### 🧱 Sponsors Grid
+- A responsive grid layout to showcase sponsor logos.
+
+### 📢 Announcements Box
+- Informative section with styled highlights for club updates.
+
+### ❓ FAQ Accordion
+- Interactive question & answer blocks that expand and collapse on click.
 
 ---
 
-## 📁 Organized Styling Structure
+## 🧩 How to Use It
 
-The stylesheet is structured with modular sections for clarity and reusability:
+To apply **light mode**, just add this class to your `<body>` tag:
 
-| Section                     | Purpose |
-|----------------------------|---------|
-| `body.light-mode`          | Core color and background themes for light mode |
-| `.btn`, `.btn-*`           | Button variants with transitions and effects |
-| `input.success / error`    | Input field feedback styling |
-| `.scroll-to-top`           | Sticky floating scroll-to-top button |
-| `.tooltip`                 | Interactive tooltip design |
-| `.badge`, `.badge-*`       | Label indicators with styles |
-| `.loader`                  | CSS animated spinner loader |
-| `.sponsors-grid`           | Responsive sponsor logos grid |
-| `.announcement`            | Highlight box for news or alerts |
-| `.faq-item`                | Collapsible FAQ blocks |
-
----
-
-## 🎨 Required CSS Variables
-
-Before using the stylesheet, ensure your global CSS (`:root`) includes these variables for colors and transitions are done by my teammets (1),(2),(3),(4):
-
-```css
-:root {
-  --primary: #6200ea;
-  --accent: #03dac6;
-  --dark: #1e1e2f;
-  --light: #ffffff;
-  --card-gradient: linear-gradient(135deg, #667eea, #764ba2);
-  --transition: all 0.3s ease;
-  --shadow: 0 4px 6px rgba(0,0,0,0.1);
-  --shadow-hover: 0 6px 12px rgba(0,0,0,0.15);
-}
+```html
+<body class="light-mode">
