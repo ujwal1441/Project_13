@@ -19,7 +19,7 @@ body.light-mode .event-card,
 body.light-mode .testimonial-card,
 body.light-mode .join-section {
     background: #f0f0f5;
-    color: var(--dark);
+    color: var(---dark);
 }
 
 
